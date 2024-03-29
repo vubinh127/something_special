@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/assets/style.css" />
+        <link rel="icon" href="/img/heart.png" />
+    </head>
+
+    <body class="body">
+        <main>
+            <div class="container mx-auto">
+                <h2 class="text-center bg-white text-xl w-max mx-auto my-10 p-2 rounded">Do you hate me?</h2>
+                <div class="flex justify-content-center items-center">
+                    <img
+                        class="gif"
+                        alt="gif"
+                        src="https://media0.giphy.com/media/t8Lo2mPAzOcmVTgtGe/giphy.gif?cid=6c09b952231uyrnduhdsf4wqnxz03rv9wx3ni5sm0zolrxz3&ep=v1_stickers_related&rid=giphy.gif&ct=s"
+                    />
+                </div>
+                <div class="flex gap-10 justify-content-between w-max mx-auto">
+                    <div class="p-4 w-max" id="yes">
+                        <button  data-modal-target="static-modal" data-modal-toggle="static-modal" class="w-[150px] h-10 rounded-lg bg-[#e94d58] text-white">No</button>
+                    </div>
+                    <div class="p-4 w-max" id="no">
+                        <button class="w-[150px] h-10 rounded-lg bg-white text-black focus:outline-none">Yes</button>
+                    </div>
+                </div>
+
+                <!-- Main modal -->
+                <div
+                    id="static-modal"
+                    data-modal-backdrop="static"
+                    tabindex="-1"
+                    aria-hidden="true"
+                    class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+                >
+                    <div class="relative p-4 w-full max-w-2xl max-h-full">
+                        <!-- Modal content -->
+                        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                            <!-- Modal header -->
+                            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
+                                <h3 class="text-xl font-semibold text-black">Lời giãi bày</h3>
+                                <button
+                                    type="button"
+                                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                                    data-modal-hide="static-modal"
+                                >
+                                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                                    </svg>
+                                    <span class="sr-only">Close modal</span>
+                                </button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="p-4 md:p-5 space-y-4">
+                                <p class="text-base leading-relaxed text-black">
+                                    Thực ra lúc đó là vì rảnh quá nên bọn anh rủ nhau qua thứ nhất là vì cửa ko khóa cũng đã lâu r, thứ 2 là cũng sang để chôm cột mắc màn gắn ở thành giường chứ thực ra cũng ko có ý gì xấu và cũng ko có ý đồ gì cả, em nghe kể nên em ko cần biết mục đích của anh là gì nhưng em thấy như thế là ko đúng, anh vào lúc đó thì nghĩ đó là bình thường vì ở hè nên chẳng có ai cả
+                                </p>
+                                <p class="text-base leading-relaxed text-black">
+                                    Anh chỉ muốn kể là anh thấy mấy thứ đó nhiều quá nên ko biết là như thế nào, nên xem ý em phản ứng như thế nào nhưng mà mình lại cãi nhau về vấn đề khác trong câu chuyện, anh thì cũng chỉ bảo vệ anh lúc đó thôi còn bây giờ thì anh thấy là không nên làm như thế
+                                </p>
+                                <p class="">
+
+                                </p>
+
+                            </div>
+
+                            <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
+                                <a href="https://www.facebook.com/messages/t/100009798017805"
+                                    data-modal-hide="static-modal"
+                                    type="button"
+                                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                >
+                                    Chấp nhận
+                                </a>
+                                <a
+                                    data-modal-hide="static-modal"
+                                    type="button"
+                                    class="pointer-events-none py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                                >
+                                   Từ chối
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+        <script src="/assets/jquery.ripples-min.js"></script>
+        <script src="/assets/index.js"></script>
+    </body>
+</html>
